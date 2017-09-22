@@ -20,7 +20,7 @@ Android application to create/craft fake sms.
 
 ### Extra :
 • Works without SuperUser Access.  
-• Works with almost all devices (except some HTC, Samsung and other).
+• Works with almost all devices (except some HTC, Samsung and other).  
 • `Random Service Center` for making message look more real.  
 • 2 minutes Difference between message creation time and receiving time (fake) for making message look more real
 
