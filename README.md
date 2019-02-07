@@ -2,8 +2,6 @@
 # MockSMS
 Android application to create/craft fake sms.
 
-<a href='https://play.google.com/store/apps/details?id=hacks.exploitr.mockSms&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' width=260 height=100 src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
-
 # How it works?
 : MockSMS works locally, it just acts like an SMS application and creates SMS with the data provided by you. Using it for dirty purposes isn't the responsibility of the developer.
 
