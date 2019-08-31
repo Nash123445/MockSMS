@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/ExploiTR/MockSMS/master/ic_launcher.png)
+![](https://raw.githubusercontent.com/ExploiTR/MockSMS/master/android/app/src/main/ic_launcher-web.png)
 # MockSMS
 Android application to create/craft fake sms.
 
@@ -35,7 +35,7 @@ Create failed/sent messages if you forgot to send one to friend on his birthday 
 Accusing your colleagues/friends for something dirty you've done. Making conspiracy against one.
 #### Remember, a closer look will reveal it's fake. So, don't try to be over-smart. Okay?
 
-# Screenshots
+# Screenshots (Old v1)
 ![](https://raw.githubusercontent.com/ExploiTR/MockSMS/master/device-2017-09-20-190704.png)
 ![](https://raw.githubusercontent.com/ExploiTR/MockSMS/master/device-2017-09-20-190728.png)
 
