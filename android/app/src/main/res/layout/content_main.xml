@@ -5,15 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="hacks.exploitr.mockSms.MainActivity"
+    tools:context="hacks.exploitr.mockSms.noplay.MainActivity"
     tools:showIn="@layout/activity_main">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
         <LinearLayout
+            android:id="@+id/adContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -138,15 +133,5 @@
                 android:minLines="4" />
 
         </LinearLayout>
-
-        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/adView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            ads:adSize="SMART_BANNER"
-            ads:adUnitId="@string/ad_unit_banner" />
-
-    </LinearLayout>
 </ScrollView>
 

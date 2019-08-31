@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="hacks.exploitr.mockSms">
+    package="hacks.exploitr.mockSms.noplay">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_SMS" />
@@ -43,7 +43,7 @@
             android:theme="@style/AppTheme.Msg" />
         <!-- BroadcastReceiver that listens for incoming SMS messages -->
         <receiver
-            android:name=".SReceiver"
+            android:name="hacks.exploitr.services.SReceiver"
             android:permission="android.permission.BROADCAST_SMS">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_DELIVER" />
@@ -52,7 +52,7 @@
 
         <!-- BroadcastReceiver that listens for incoming MMS messages -->
         <receiver
-            android:name=".MReceiver"
+            android:name="hacks.exploitr.services.MReceiver"
             android:permission="android.permission.BROADCAST_WAP_PUSH">
             <intent-filter>
                 <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
@@ -63,7 +63,7 @@
 
         <!-- Service that delivers messages from the phone "quick response" -->
         <service
-            android:name=".Service"
+            android:name="hacks.exploitr.services.Service"
             android:exported="true"
             android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
             <intent-filter>
@@ -80,9 +80,12 @@
 
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="b531c33699ds44n5j79s8s44bh990s6ge4574483c2be" />
+            android:value="#######################################" />
 
-        <activity android:name=".FreeActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="#######################################"/>
+
     </application>
 
 </manifest>
