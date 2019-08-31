@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/ExploiTR/MockSMS/master/android/app/src/main/ic_launcher-web.png)
+![](https://raw.githubusercontent.com/ExploiTR/MockSMS/master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
 # MockSMS
 Android application to create/craft fake sms.
 
