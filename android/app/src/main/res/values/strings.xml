@@ -51,4 +51,14 @@
     <string name="temporary_unlock">Temporary Unlock</string>
     <string name="add_time">Add Time</string>
     <string name="ad_unit_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="none">none</string>
+    <string name="setting_up_mocksms">Setting up MockSMS</string>
+    <string name="hi">Hi!</string>
+    <string name="please_select_a_mode_to_continue_using">Please select a mode to continue using MockSMS</string>
+    <string name="your_choice_is_automatically_saved">You can just come back and switch modes later.</string>
+    <string name="phone_number">Sender Phone Number</string>
+    <string name="so">So</string>
+    <string name="this_is">this is</string>
+    <string name="simple_mode">Simple Mode</string>
+    <string name="write_message_160_letters_limit">Write message (160 letters limit)</string>
 </resources>

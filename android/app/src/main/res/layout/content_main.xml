@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="hacks.exploitr.mockSms.noplay.MainActivity"
+    tools:context="hacks.exploitr.mockSms.MainActivity"
     tools:showIn="@layout/activity_main">
         <LinearLayout
             android:id="@+id/adContainer"
@@ -19,8 +19,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="@string/sender_phone_number"
-                android:textAppearance="@style/text_norm" />
+                android:text="@string/sender_phone_number" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -58,7 +57,6 @@
 
                 <TextView
                     android:id="@+id/date"
-                    style="@style/text_norm"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -82,8 +80,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sms_type"
-                android:textAppearance="@style/text_norm" />
+                android:text="@string/sms_type" />
 
             <Spinner
                 android:id="@+id/types"
@@ -118,8 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
-                android:text="@string/enter_message_here"
-                android:textAppearance="@style/text_norm" />
+                android:text="@string/enter_message_here" />
 
             <EditText
                 android:id="@+id/messageMain"

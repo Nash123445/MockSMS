@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hacks.exploitr.mockSms.noplay.MainActivity">
+    tools:context="hacks.exploitr.mockSms.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/Theme.MockSMS.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
             android:background="@color/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/Theme.MockSMS.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -30,6 +30,7 @@
         app:backgroundTint="#0066FF"
         app:fabCustomSize="80dp"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@drawable/ic_message_create" />
+        app:srcCompat="@drawable/ic_message_create"
+        android:contentDescription="@string/none" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

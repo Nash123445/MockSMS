@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="hacks.exploitr.mockSms.noplay.MainActivity">
+    tools:context="hacks.exploitr.mockSms.MainActivity">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
